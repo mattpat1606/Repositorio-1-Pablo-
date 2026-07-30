@@ -7,7 +7,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background:#f4f6f9;
+    background:#ffffff;
 }
 
 /* GRID PRINCIPAL */
@@ -39,7 +39,7 @@ header{
 /* NAV */
 nav{
     grid-area:nav;
-    background:#850707;
+    background:#860202;
     border-radius:10px;
 }
 
@@ -62,7 +62,7 @@ nav a{
 }
 
 nav a:hover{
-    background:#334155;
+    background:#050505;
     border-radius:5px;
 }
 
@@ -73,7 +73,7 @@ main{
 
 /* HERO */
 .hero{
-    background:white;
+    background:rgb(243, 105, 105);
     border-radius:10px;
     overflow:hidden;
     box-shadow:0 2px 8px rgba(0,0,0,.15);
@@ -102,7 +102,7 @@ main{
 }
 
 article{
-    background:white;
+    background:rgb(243, 105, 105);
     border-radius:10px;
     overflow:hidden;
     box-shadow:0 2px 8px rgba(0,0,0,.15);
@@ -121,7 +121,7 @@ article img{
 
 article h3{
     padding:15px 15px 5px;
-    color:#0f172a;
+    color:#000000;
 }
 
 article p{
@@ -131,7 +131,7 @@ article p{
 /* ASIDE */
 aside{
     grid-area:aside;
-    background:white;
+    background:rgb(243, 105, 105);
     padding:20px;
     border-radius:10px;
     box-shadow:0 2px 8px rgba(0,0,0,.15);
@@ -159,7 +159,7 @@ aside img{
 /* FOOTER */
 footer{
     grid-area:footer;
-    background:#0f172a;
+    background:#010102;
     color:white;
     text-align:center;
     padding:20px;
